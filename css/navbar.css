@@ -32,6 +32,7 @@
     width: 100%;
     height: 65px;
     display: flex;
+    justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -42,17 +43,33 @@
     height: 65px;
     padding: 0;
     padding-right: 3rem;
+    margin-left: 2rem;
     
 }
+
+
+@media screen and (max-width: 850px) {
+    .nav div.main_list ul li {
+        margin-left: 0rem; /* Réduire l'espace entre les boutons pour les petits écrans */
+    }
+}
+
+
 
 .nav div.main_list ul li a {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2.4vw;
-    padding: 1rem;
+    font-size: 2.5rem;
+    
 }
 
+
+@media screen and (max-width: 850px) {
+    .nav div.main_list ul li a{
+        font-size: 1.5rem; /* Réduire l'espace entre les boutons pour les petits écrans */
+    }
+}
 
 .nav div.main_list ul li a:hover {
     color: #00E676;
