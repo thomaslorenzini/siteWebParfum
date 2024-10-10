@@ -107,3 +107,44 @@ body {
     box-shadow: 0px 45px 60px 0px rgba(0, 0, 0, 0.087);
   }
 }
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+
+/* Navbar section */
+.text-overlay{
+    color: #fff;
+    position: absolute;
+    top: calc(64%);
+    margin-left: 45%;
+    scale: 4;
+}
+
+.text{
+    position: absolute;
+    top: calc(31%);
+    margin-left: 47%;
+    scale: 4;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/fond_feuille.webp");
+    background-position: center top;
+	background-size:cover;
+    display : flex;
+    text-align:center;
+}
