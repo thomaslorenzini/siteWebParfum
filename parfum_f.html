@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style_boutique.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <title>Floralys</title>
 </head>
 <body>
 
-    
 
+<!-- BARRE DE NAV -->
  
+<!-- BARRE DE NAV -->
      
         <div class='fiches'>
 
@@ -344,10 +346,22 @@ REVIGORANT
         </div>
         
 
- 
-
-
-
+ <!-- PROGRAMME JAVA NAVBAR -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+<!-- PROGRAMME JAVA NAVBAR -->
 
 </body>
 </html>
