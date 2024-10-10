@@ -17,6 +17,7 @@ body {
 
 .fiches {
   
+  
   display: grid;
   grid-gap: 50px;
   grid-template-columns: repeat(3, minmax(350px, 200px));
@@ -29,11 +30,14 @@ body {
 }
 
 .carte {
+  border-radius: 30px;
   position: relative;
   padding: 10px;
   background: white;
   display: grid;
   box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.057);
+  transform: scale(1);
+  transition: transform 0.5s, opacity 3s;
   
 
 .contenu-carte {
@@ -98,7 +102,8 @@ body {
   }
   &:hover {
     transition: 0.2s ease-in;
-    transform: translateY(-20px);
+    transform: translateY(-40px);
+    transform: scale(1.2);
     box-shadow: 0px 45px 60px 0px rgba(0, 0, 0, 0.087);
   }
 }
