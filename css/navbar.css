@@ -20,7 +20,7 @@
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #5c2be0;
 }
 
 .nav div.main_list {
@@ -67,16 +67,15 @@
 
 @media screen and (max-width: 850px) {
     .nav div.main_list ul li a{
-        font-size: 1.5rem; /* Réduire l'espace entre les boutons pour les petits écrans */
+        font-size: 1.5rem;
     }
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #5c2be0;
 }
 
 
-/* Home section */
 
 .navTrigger {
     display: none;
@@ -90,8 +89,6 @@
     z-index: 1000;
 }
 
-
-/* Media qurey section */
 
 @-webkit-keyframes inM {
     50% {
