@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Floralys</title>
+    <link rel="stylesheet" href="./css/panier.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/style_boutique.css">
+    <link rel="icon" href="images/logo_nav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="nav affix" style="top: 0">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_nav.png" alt="logo" height="62"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="parfum_h.html">Parfum Homme</a></li>
+                    <li><a href="parfum_f.html">Parfum Femme</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Panier</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <h1 class="page-title">Votre Panier</h1>
+
+    <div class="cart-container">
+        <div class="cart-items">
+            
+            <div class="cart-item">
+                <img src="images/parfum1h.jpg" alt="haleover" class="item-image">
+                <div class="item-details">
+                    <h2 class="item-name">Hale Over</h2>
+                    <p class="item-price">Prix: 149€</p>
+                    <div class="item-quantity">
+                        <label for="quantity1">Quantité:</label>
+                        <input type="number" id="quantity1" name="quantity1" min="1" value="1">
+                    </div>
+                    <button class="remove-btn">Supprimer</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/parfum2h.png" alt="channel-homme" class="item-image">
+                <div class="item-details">
+                    <h2 class="item-name">Channel-homme</h2>
+                    <p class="item-price">Prix: 699€</p>
+                    <div class="item-quantity">
+                        <label for="quantity2">Quantité:</label>
+                        <input type="number" id="quantity2" name="quantity2" min="1" value="2">
+                    </div>
+                    <button class="remove-btn">Supprimer</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/parfum4h.png" alt="menstorm" class="item-image">
+                <div class="item-details">
+                    <h2 class="item-name">Men storm</h2>
+                    <p class="item-price">Prix: 1299€</p>
+                    <div class="item-quantity">
+                        <label for="quantity3">Quantité:</label>
+                        <input type="number" id="quantity3" name="quantity3" min="1" value="1">
+                    </div>
+                    <button class="remove-btn">Supprimer</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Résumé de votre panier</h2>
+            <p class="summary-item">Total des articles: <span class="summary-value">2147€</span></p>
+            <p class="summary-item">Frais de livraison: <span class="summary-value">10€</span></p>
+            <hr>
+            <p class="summary-item total">Total: <span class="summary-value">2157   €</span></p>
+            <button class="checkout-btn">Passer à la caisse</button>
+            <button class="continue-btn">Continuer vos achats</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Page faite par Thomas Lorenzini</p>
+        <img src="images/logo_nav.png" class="footer-logo" alt="Logo" height="40">
+    </footer>
+
+</body>
+</html>
+<!-- Made By Thomas Lorenzini -->
